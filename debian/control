@@ -1,0 +1,17 @@
+Source: jupyter-notebook-launcher
+Section: unknown
+Priority: optional
+Maintainer: Gabriele N. Tornetta <phoenix1987@gmail.com>
+Build-Depends: debhelper (>=9), python3, python3-setuptools, python3-gi, gir1.2-gtk-3.0, gir1.2-appindicator3-0.1, gir1.2-glib-2.0
+Standards-Version: 3.9.8
+Homepage: https://launchpad.net/jupyter-notebook-launcher
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Vcs-Git: git://github.com/P403n1x87/jupyter-notebook-launcher.git
+Vcs-Browser: https://github.com/P403n1x87/jupyter-notebook-launcher.git
+
+Package: jupyter-notebook-launcher
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, jupyter-notebook, python3-gi, gir1.2-gtk-3.0, gir1.2-appindicator3-0.1, gir1.2-glib-2.0
+Suggests:
+Description: Jupyter Notebook Launcher is a Jupyter Notebook Launcher and Indicator for Ubuntu

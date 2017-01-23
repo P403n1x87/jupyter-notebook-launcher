@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Type=Application
+Name=Jupyter Notebook
+Icon=/usr/local/share/icons/hicolor/scalable/apps/jupyter.svg
+Exec=jupyter-notebook-launcher %f
+Comment=Jupyter Notebook Indicator
+MimeType=application/x-ipynb+json;
+Categories=Science;
